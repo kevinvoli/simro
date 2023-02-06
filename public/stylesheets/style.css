@@ -1,0 +1,27 @@
+:root {
+  --primaryColorsV1: #0B4503;
+  --primaryColorsV2: #898e0c;
+  --secondColorsV1: #CD0036;
+  --secondColorsV2: #C14D09;
+}
+
+
+body,* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+nav {
+  background-color:var(--primaryColorsV1);
+  height: 70px;
+}
+
+nav .content{
+  display: flex;
+}
+
+.navlink ul{
+  list-style-type: none;
+}
